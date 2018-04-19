@@ -1,0 +1,21 @@
+{
+	"apps":
+	{
+		"name":"test",
+		"cwd":"/Users/xujing/sites/project-mine",
+		"script":"/Users/xujing/sites/project-mine/app.js",
+		"exec_mode":"cluster_mode",
+		"max_memory_restart":"1024M",
+		"watch":"false",
+		"log_file":"/dev/null",
+		"err_file":"/Users/xujing/sites/project-mine/logs/err.log",
+		"out_file":"/Users/xujing/sites/project-mine/logs/out.log",
+		"pid_file":"/Users/xujing/sites/project-mine/logs/pid.log",
+		"merge_logs":false,
+		"log_date_format":"YYYY-MM-DD HH:mm",
+		"env":{
+			"NODE_ENV":"production"
+		},
+		"port":3005
+	}
+}

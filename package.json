@@ -1,0 +1,25 @@
+{
+  "name": "project-mine",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "prebuild": "echo \" this is pre build \"",
+    "build": "echo \" this is build \"",
+    "postbuild": "echo \" this is post build \""
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "bunyan": "^1.8.12",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.15.5",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5",
+    "yargs": "^10.0.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-replace": "^0.6.1"
+  }
+}
